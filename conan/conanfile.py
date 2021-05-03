@@ -21,7 +21,7 @@ class WebsocketConan(ConanFile):
         "build_tests": False,
     }
 
-    requires = ("boost/1.71.0",)
+    requires = ("boost/1.75.0",)
 
     build_requires = ("cmake_installer/[>=3.16]@conan/stable",)
 
